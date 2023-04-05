@@ -22,13 +22,31 @@ Anaconda - Python 3.7
 <br>
 
 ## Program:
-```python
-# Developed By:
-# Register Number:
-import cv2
-import matplotlib.pyplot as plt
+```
+# Developed By:RAKSHITHA DEVI J
+# Register Number:212221230082
+```
 
 # Write your code to find the histogram of gray scale image and color image channels.
+```
+
+
+import cv2
+import matplotlib.pyplot as plt 
+from google.colab.patches import cv2_imshow
+
+#gray scale and color image  
+gray_image = cv2.imread("skz.jpeg")
+color_image = cv2.imread("in.jpeg")
+
+
+cv2_imshow(gray_image)
+
+
+cv2_imshow(color_image)
+
+cv2.waitKey(0)
+```
 
 
 
